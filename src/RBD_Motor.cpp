@@ -251,4 +251,16 @@ namespace RBD {
     _ramping     = false;
     _stop_events = true;
   }
+  
+  int getPwmPin() {
+    return _pwm_pin;
+  }
+  
+  int getForwardPin() {
+    return _forward_pin;
+  }
+  
+  int getReversePin() {
+    return _reverse_pin;
+  }
 }
